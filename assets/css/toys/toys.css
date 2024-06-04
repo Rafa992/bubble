@@ -1,0 +1,39 @@
+.toys {
+    padding: 33px 0;
+}
+
+.toys__swiper-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.toys__swiper-title {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.toys__swiper-arrows {
+    position: relative;
+    width: 80px;
+    height: 56px;
+}
+
+.toys__swiper-prev, .toys__swiper-next {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.toys__slide {
+    height: 445px !important;
+}
+
+.toys__slide .backpacks__slide-img img {
+    width: 100%;
+    object-fit: cover;
+}

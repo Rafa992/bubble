@@ -1,0 +1,30 @@
+.brands  {
+    padding: 33px 0 70px;
+}
+
+.brands__title {
+    margin-bottom: 24px;
+    font-size: 28px;
+    color: 333px;
+}
+
+.brands__content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.brands__item-link {
+    display: block;
+    width: 155px;
+    height: 140px;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+}
+
+.brands__item-link img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

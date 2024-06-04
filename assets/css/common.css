@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+    background: #F3F9FF;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: #0073E6;
+}
+
+*::-webkit-scrollbar-corner {
+    background: #0073e689;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button, input, textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.container {
+    max-width: 1430px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: Arial;
+    background: #F3F9FF;
+    font-family: 'Exo2';
+}

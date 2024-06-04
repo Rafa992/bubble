@@ -1,0 +1,20 @@
+.gallery {
+    padding: 33px 0;
+}
+
+.gallery .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 33px;
+}
+
+.gallery__item {
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+    user-select: none;
+}
+
+.gallery__item img {
+    width: 100%;
+}

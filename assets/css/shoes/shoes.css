@@ -1,0 +1,70 @@
+.shoes {
+    padding: 33px 0;
+}
+
+.shoes__swiper-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.shoes__swiper-title {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.shoes__swiper-arrows {
+    position: relative;
+    width: 80px;
+    height: 56px;
+}
+
+.shoes__swiper-prev, .shoes__swiper-next {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.shoes__block {
+    display: flex;
+    align-items: stretch;
+    gap: 33px;
+}
+
+.shoes__left {
+    width: 40% !important;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.shoes__left-link {
+    display: block;
+    height: 100%;
+}
+
+.shoes__left-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shoes__right {
+    height: auto;
+    width: 60%;
+}
+
+.shoes__swiper {
+    height: 100%;
+    width: 100%;
+}
+
+.shoes__swiper-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 33px;
+}

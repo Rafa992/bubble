@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo_2/Exo2-Black.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo_2/Exo2-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo_2/Exo2-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo_2/Exo2-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo_2/Exo2-Light.ttf');
+    font-weight: 300;
+}
